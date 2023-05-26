@@ -1,3 +1,60 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
 h1 {
-    color: red;
+    color: rgb(82, 8, 124);
+    text-shadow: 5px 5px 25px rgb(18, 18, 88);
+    text-align: center;
+    background-color: rgb(177, 159, 194);
+    border-radius: 10px;
+}
+
+h2 {
+    color: blueviolet;
+}
+
+ol {
+    color: midnightblue;
+    text-align: justify;
+}
+
+td, th {
+    border: solid 1px rgb(187, 126, 243);
+    padding: 50px;
+}
+
+table {
+    border-collapse: collapse;
+    margin: auto;
+    color: white;
+}
+
+.table {
+    background-color: rgb(60, 18, 100);
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 10px;
+}
+
+.bandeau-recette {
+    background-color: cadetblue;
+    padding: 20px;
+    border-radius: 10px;
+    margin: auto;
+    color: rgb(29, 74, 95);
+}
+
+.conteneur-pizza {
+    display: flex;
+    position: relative;
+    padding: 20px;
+    margin: auto;
+}
+
+.metiers {
+    background-color: blueviolet;
+    color: white;
+    text-align: center;
+    border-radius: 10px 70px 10px 30px;
+    box-shadow: 10px 10px 15px gray;
 }
